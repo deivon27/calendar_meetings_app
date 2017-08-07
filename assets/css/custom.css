@@ -1,0 +1,160 @@
+body {
+    overflow: hidden;
+}
+
+.container {
+    width: 800px !important;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.overlay-modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(39, 39, 39, 0.9);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: none;
+}
+
+.event-form {
+    background-color: #edeff1;
+    padding: 24px 23px 20px;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+}
+
+#eventForm, #newUser {
+    display: none;
+}
+
+.overlay-modal h4 {
+    color: #999;
+}
+
+.event-form input[type="text"] {
+    padding: 10px;
+    background-color: #fff;
+    width: 100%;
+    color: #333;
+}
+
+[class*='close-'] {
+    color: #777;
+    font: 17px/100% arial, sans-serif;
+    position: absolute;
+    right: 10px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #fff;
+    top: 10px;
+    cursor: pointer;
+}
+
+.close-thik:after {
+    content: '✖';
+}
+
+.close-thik-event {
+    top: 10px;
+}
+
+.close-thik-event:after {
+    content: '✖';
+    color: #FFF;
+    position: relative;
+    right: 5px;
+    font-size: 16px;
+}
+
+#createEvent {
+    margin: 10px auto;
+}
+
+.bootstrap-datepicker-widget table tr td {
+    color: #333;
+}
+
+label {
+    font-size: 13px;
+    float: left;
+    color: #333;
+}
+
+.listed-event {
+    font-weight: bold;
+    font-family: "Trebuchet MS", Helvetica, sans-serif !important;
+    position: relative;
+}
+
+.listed-event .fui-new {
+    position: absolute;
+    right: 36px;
+    top: 7px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.desc-event, .title-event {
+    font-size: 12px;
+    line-height: 2;
+    color: #fff;
+}
+
+.desc-event {
+    font-size: 12px;
+    line-height: 1.5;
+    color: #fff;
+    border-top: 1px dashed #fff;
+    border-bottom: 1px dashed #fff;
+    margin: 2px auto;
+    padding: 4px 0;
+}
+
+.title-event {
+    font-size: 1.1em;
+    text-shadow: none;
+    color: #000;
+    text-shadow: 1px 1px 4px #fff;
+}
+
+.status-event {
+    background-color: #272727;
+    color: #fff;
+    padding: 0 3px;
+    margin-right: 10px;
+    text-shadow: none;
+}
+
+.monthly-list-time-start, .monthly-list-time-end {
+    font-size: .9em;
+}
+
+.greened, .reded, .magented {
+    color: green;
+    transition: all 1s;
+    text-align: center;
+}
+
+.reded {
+    color: #C44242;
+}
+
+.greyed {
+    color: #3E3E3E;
+}
+
+.bootstrap-datetimepicker-widget {
+    border: 1px solid #DEDEDE;
+}
+
+.response {
+    font-size: 16px;
+}

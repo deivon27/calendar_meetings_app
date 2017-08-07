@@ -1,0 +1,42 @@
+.container {
+    width: 970px;
+    padding-top: 10vh;
+}
+
+.login-icon {
+    left: 190px;
+    position: absolute;
+    top: 160px;
+    width: 110px;
+}
+
+.greened, .reded, .greyed {
+    color: green;
+    transition: all 1s;
+    text-align: center;
+}
+
+.reded {
+    color: #C44242;
+}
+
+.greyed {
+    color: #3E3E3E;
+}
+
+.header {
+    font-size: 30px;
+    color: #fff;
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.response {
+    font-size: 16px;
+}
+
+.admin-signup {
+    display: none;
+}
