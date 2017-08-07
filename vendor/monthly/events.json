@@ -1,0 +1,26 @@
+
+
+{
+  "monthly": [
+    {
+      "id": 1,
+      "name": "This is a JSON event 1",
+      "startdate": "2017-8-15",
+      "enddate": "2017-8-18",
+      "starttime": "12:00",
+      "endtime": "2:00",
+      "color": "#FFB128",
+      "url": "javascript:alert(3)"
+    },
+    {
+      "id": 2,
+      "name": "This is a JSON event 2",
+      "startdate": "2017-7-15",
+      "enddate": "",
+      "starttime": "12:00",
+      "endtime": "2:00",
+      "color": "#EF44EF",
+      "url": "http://google.ru"
+    }
+  ]
+}
