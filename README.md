@@ -1,5 +1,4 @@
-# calendar_meetings_app
-Calendar Meeting WebApp
+# Calendar Meeting WebApp
 
 Hi, Bohdan here. This app is my first webapp submitted on Gitgub.
 
