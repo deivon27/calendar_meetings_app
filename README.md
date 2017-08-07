@@ -1,6 +1,6 @@
 # Calendar Meeting WebApp
 
-Hi, Bohdan here. This app is my first webapp submitted on Gitgub.
+Hi, Bohdan here. This app is my first webapp submitted on Github.
 
 1. To use it you need to download the source files to the root of your web hosting.
 2. Set up some app parameters in /config/app_params.php 
