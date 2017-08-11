@@ -1,4 +1,4 @@
-# Calendar Meeting WebApp
+# Calendar Meetings WebApp
 
 Hi, Bohdan here. This app is my first webapp submitted on Github.
 
